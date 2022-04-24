@@ -3,6 +3,8 @@
     <ul>
       <li v-for="item in users" :key="item.id">{{ item.name }}</li>
     </ul>
+
+    asdasd
   </div>
 </template>
 
