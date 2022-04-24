@@ -16,7 +16,7 @@ export default {
     }
   },
   async mounted() {
-    const res = await axios.get("http://124.221.127.247/:3000/api/users")
+    const res = await axios.get("http://124.221.127.247:3000/api/users")
     this.users = res.data
   }
 }
