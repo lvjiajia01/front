@@ -1,10 +1,6 @@
 <template>
   <div id="app">
     <ul>
-      <li v-for="item in users" :key="item.id">{{ item.name }}</li>
-    </ul>
-    <hr>
-    <ul>
       <li v-for="item in users" :key="item.id">{{ item.id }} --- {{ item.name }}</li>
     </ul>
 
